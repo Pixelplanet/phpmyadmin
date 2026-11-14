@@ -1,0 +1,11 @@
+# The image is built from a git worktree of HEAD (see docker/Dockerfile),
+# so only git metadata and committed files matter. Keep local build output out.
+/node_modules/
+/vendor/
+/release/
+/build/
+/tmp/
+/.sso-stack/
+/config.inc.php
+/app/cache/*
+!/app/cache/.gitkeep
